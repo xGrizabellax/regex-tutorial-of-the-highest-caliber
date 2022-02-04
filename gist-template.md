@@ -20,7 +20,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-An anchor, which is commonly a '^' or '$' character are used as anchors in regex:
+An anchor, which is commonly a '^' or '\$' character are used as anchors in regex:
 ^ - signifies that the characters that follow will begin the string in search.
 $ - signifies that the characters that precede it will end the string in search.
 
