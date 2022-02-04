@@ -26,8 +26,12 @@ $ - signifies that the characters that precede it will end the string in search.
 
 ### Quantifiers
 Quantifiers set the limits of the string that your regex search matches:
-\* - matches a pattern 0 or more times
-\+ - matches a pattern 1 or more times
+\* - matches a pattern 0 or more times,
+\+ - matches a pattern 1 or more times,
+? - matches a pattern zero or one time,
+##### Curly Brackets:
+Curly brackets have three possible ways to match a pattern:
+{n} - matches 
 
 ### Grouping Constructs
 Uses (()) to section off portions of a regex search. Each section is known as a subexpression. Unlike bracket expresisons, subexpressions look for an EXACT match. Each subexpression is split up with a colon (:) in between them.
