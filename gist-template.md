@@ -43,4 +43,10 @@ Uses (()) to section off portions of a regex search. Each section is known as a 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+  For any further assistance, you may contact me at:
+
+  * Github: [xGrizabellax](<https://github.com/xGrizabellax>)
+
+  OR
+
+  * Email: sampagecode@gmail.com
