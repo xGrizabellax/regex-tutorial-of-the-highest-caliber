@@ -26,7 +26,8 @@ $ - signifies that the characters that precede it will end the string in search.
 
 ### Quantifiers
 Quantifiers set the limits of the string that your regex search matches:
-*
+\* - matches a pattern 0 or more times
+\+ - matches a pattern 1 or more times
 ### Grouping Constructs
 
 ### Bracket Expressions
