@@ -57,6 +57,10 @@ Flags define additional functionality or limits for the regex. The flag is place
     'm' - multi-line seach: a multi-line string will be treated as multiple lines.
 
 ### Character Escapes
+The backslash (\) in regex helps to "escape" a character from being translated literally.
+    Eg. a '{' would normally signify to begin a quantifier, but by searchibg '\{', you let regex know that you are actually searching for the '{' symbol.
+
+NOTE: All special characters, includung a backslash lose any significance when used inside bracket expressions
 
 ## Author
 
