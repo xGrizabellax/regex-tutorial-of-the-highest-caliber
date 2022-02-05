@@ -41,6 +41,7 @@ If a '^' symbol is added to the beginning of a bracket expression, it will avoid
 
 
 ### Character Classes
+Character classes are basically shortcuts to define an overall set of characters.
 
 ### The OR Operator
 
