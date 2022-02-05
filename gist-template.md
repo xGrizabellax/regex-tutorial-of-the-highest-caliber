@@ -42,8 +42,13 @@ If a '^' symbol is added to the beginning of a bracket expression, it will avoid
 
 ### Character Classes
 Character classes are basically shortcuts to define an overall set of characters.
+'.' - matches any character exept for (\n)
+'\d' - matches any digit between 0-9
+'\w' - matches any alpha numeric character 
+'\s' - matches a single whitespace characters including tabs and linebreaks. Can be capitalized for an inverse match.
 
 ### The OR Operator
+Using the OR operator (|), one may split up a grouping construct. So instead of (abc) which would match with only "abc", you could search (a|b|c) which basically means your search can contain 'a OR b OR c', or any combinatuon of the three.
 
 ### Flags
 
