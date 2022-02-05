@@ -35,7 +35,10 @@ Curly brackets have three possible ways to match a pattern:
 
 ### Grouping Constructs
 Uses (()) to section off portions of a regex search. Each section is known as a subexpression. Unlike bracket expresisons, subexpressions look for an EXACT match. Each subexpression is split up with a colon (:) in between them.
-### Bracket Expressions
+### Bracket Expressions (aka - 'Positive Character Group')
+Anything inside of a set of square brackets ([]) that represents a RANGE of characters in search. Commonly uses a hyphen to represent a range. Eg. [1-4] instead of [1234].
+If a '^' symbol is added to the beginning of a bracket expression, it will avoid strings that contain the following characters and is known as a 'Negative Character Group'
+
 
 ### Character Classes
 
